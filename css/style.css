@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.Next:hover{
+    background:#224000 ;
+}
+
+.Previus:hover{
+    background:rgb(108, 35, 35)  ;
+}
+
+
+.Next{
+    text-align: center;
+    background:#4c7617 ;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    justify-content: center;
+}
+
+.Previus{
+    text-align: center;
+    background : rgb(184, 38, 38) ;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    width: 250px;
+    height: 100px;
+    background-color: black;
+    border-radius: 5px;
+    border: greenyellow solid 1.9px;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(151, 151, 187);
+}
+
+div.linha {
+    border:solid 2px;
+    border-radius: 3px;
+    height: 2px;
+    background-image: linear-gradient(#fff,#ccc) ;
+    margin-top: -0px;
+}
+
+main h1:hover {
+    color: rgb(102, 255, 0);
+}
+
+main h2:hover {
+    color: rgb(102, 255, 0);
+}
+
+div h3 {
+    text-align: center;
+    color: #7bf965;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(135, 115, 155);
+    height: 300px;
+    width: 400px;
+    margin-top: 15%;
+    border-radius: 30px;
+}
